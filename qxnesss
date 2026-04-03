@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Qxcess</title>
+<style>
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background:#f5f5f5;
+    color:#333;
+}
+a {
+    text-decoration:none;
+}
+header {
+    background: linear-gradient(to right, #1A73E8, #34A853);
+    color:white;
+    padding:25px 10px;
+    text-align:center;
+}
+header h1 {
+    margin:0;
+    font-size:2.2em;
+}
+header p {
+    margin:5px 0 0 0;
+    font-size:1em;
+}
+button {
+    background:#34A853;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    margin:10px 0;
+    cursor:pointer;
+    font-size:16px;
+    border-radius:8px;
+}
+section {
+    padding:20px;
+    max-width:900px;
+    margin:auto;
+    background:white;
+    margin-top:25px;
+    border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+h2 {
+    color:#1A73E8;
+    margin-bottom:10px;
+}
+ul {
+    padding-left:20px;
+}
+ul li {
+    margin-bottom:8px;
+}
+.button-link {
+    color:white;
+}
+footer {
+    text-align:center;
+    padding:15px;
+    margin-top:25px;
+    background:#eee;
+    color:#555;
+    font-size:0.9em;
+}
+/* Responsive Styles */
+@media (max-width:600px){
+    header h1 { font-size:1.8em; }
+    header p { font-size:0.9em; }
+    button { width:100%; }
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Qxcess</h1>
+<p>Trade Smarter, Earn Faster</p>
+</header>
+
+<section>
+<h2>Open Account</h2>
+<p>Click the button below to start trading with Qxcess!</p>
+<button><a href="YOUR_IB_REFERRAL_LINK" target="_blank" class="button-link">Open Account Now</a></button>
+</section>
+
+<section>
+<h2>Market Signals</h2>
+<ul>
+<li>EUR/USD – Buy – Stop Loss: 1.0920, Take Profit: 1.1000</li>
+<li>GBP/USD – Sell – Stop Loss: 1.3100, Take Profit: 1.3000</li>
+<li>USD/JPY – Buy – Stop Loss: 132.00, Take Profit: 134.00</li>
+</ul>
+</section>
+
+<section>
+<h2>Deposit Guide</h2>
+<p>Deposit via bank transfer, bKash/Nagad, or crypto. Follow our simple guide to start trading.</p>
+</section>
+
+<section>
+<h2>Contact / Support</h2>
+<p>Email: support@qxcess.com | Telegram: t.me/qxcesssupport</p>
+</section>
+
+<footer>
+<p>Powered by Qxcess</p>
+</footer>
+
+</body>
+</html>
